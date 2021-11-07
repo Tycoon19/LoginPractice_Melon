@@ -7,6 +7,7 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.25885416666666666" />
         <entry key="app/src/main/res/drawable/kakao_logo.xml" value="0.25885416666666666" />
         <entry key="app/src/main/res/drawable/loginbutton_bottom_invisible.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/drawable/loginbutton_bottom_invisible2.xml" value="0.25885416666666666" />
         <entry key="app/src/main/res/drawable/loginbutton_stroke_rounded_corner.xml" value="0.25885416666666666" />
         <entry key="app/src/main/res/drawable/loginbutton_stroke_rounded_corner_kakao.xml" value="0.25885416666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />

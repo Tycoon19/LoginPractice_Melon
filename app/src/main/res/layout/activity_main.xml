@@ -33,6 +33,7 @@
         android:layout_height="40dp"
         android:background="@drawable/edittext_rounded_corner_rectangle"
         android:layout_marginTop="10dp"
+        android:inputType="textPassword"
         android:hint="  비밀번호"/>
 
 
@@ -111,8 +112,73 @@
 
 </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#B6B6B6"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginRight="12dp"
+        android:paddingTop="5dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:background="@drawable/loginbutton_bottom_invisible2"
+            android:layout_weight="1"
+            android:textSize="13dp"
+            android:text="이용약관"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="|"
+            android:textSize="18dp"
+            android:layout_marginHorizontal="3dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:background="@drawable/loginbutton_bottom_invisible2"
+            android:layout_weight="1"
+            android:textSize="13dp"
+            android:text="유료서비스약관"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="|"
+            android:textSize="18dp"
+            android:layout_marginHorizontal="5dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:background="@drawable/loginbutton_bottom_invisible2"
+            android:layout_weight="1"
+            android:textSize="13dp"
+            android:text="개인정보처리방침"/>
 
 
+</LinearLayout>
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/loginbutton_bottom_invisible"
+        android:textSize="13dp"
+        android:text="청소년보호정책"/>
 
 </LinearLayout>
